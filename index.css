@@ -1,0 +1,83 @@
+/* *{
+    border: 0%;
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: beige;
+}
+
+.signup-container {
+    max-width: 450px;
+    margin: 150px auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    background-color: pink;
+}
+input {
+    width: 80%;
+    height: 25px;
+    padding: 6px;
+    border: 1px solid rgb(55, 55, 55);
+    border-radius: 7px;
+}
+
+input[ type="text"], input[type="password"], button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[ type="text"], input[type="password"], button:hover {
+    color: black;
+    background-color: beige;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color:black;
+}
+
+.post-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    /* border: 1px solid pink; */
+    border-radius: 5px;
+}
+
+.posts-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: pink;
+}
+
+ul {
+    list-style: none;
+    /* padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(5, 0.5fr); */
+    gap: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: pink;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+}
+
+li:hover {
+    background-color: hotpink;
+}
